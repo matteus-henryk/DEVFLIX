@@ -74,28 +74,28 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Animes",
       "cor": "#e50914",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Naruto",
+          "url": "https://www.youtube.com/watch?v=GJNwjVeKgb0"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Demon Slayer: Kimetsu no Yaiba",
+          "url": "https://www.youtube.com/watch?v=tiUQ3JmGP14"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Dragon Ball Super",
+          "url": "https://www.youtube.com/watch?v=S5Y4egCwIkQ"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Bleach",
+          "url": "https://www.youtube.com/watch?v=_eSy3xSu1Qk"
         }
       ]
     },
@@ -104,20 +104,20 @@
       "cor": "#e50914",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Irmão Urso 2",
+          "url": "https://www.youtube.com/watch?v=EALWYQPDglc"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Pantera Negra",
+          "url": "https://www.youtube.com/watch?v=Hb6X0TQAKvQ"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Logan",
+          "url": "https://www.youtube.com/watch?v=RSfxQBOY0qA"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "DeadPool",
+          "url": "https://www.youtube.com/watch?v=TjBH2FckLLY"
         }
       ]
     },
@@ -179,7 +179,38 @@
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
         }
+        
       ]
-    }
-  ]
+    },
+
+
+      {
+        "titulo": "Documentarios",
+        "cor": "#e50914",
+        "link_extra": {
+          "text": "",
+          "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc"
+        },
+        "videos": [
+          {
+            "titulo": "OLHOS QUE CONDENAM ",
+            "url": "https://www.youtube.com/watch?v=5ktAyxNm2fo"
+          },
+          {
+            "titulo": "Escritores da Liberdade ",
+            "url": "https://www.youtube.com/watch?v=pfwzLDj0yzM"
+          },
+          {
+            "titulo": "Nosso Planeta",
+            "url": "https://www.youtube.com/watch?v=IEl1u_hHKac"
+          },
+          {
+            "titulo": "Privacidade Hackeada",
+            "url": "https://www.youtube.com/watch?v=wjXYCrxRWqc"
+          }
+               
+        ]
+      }
+
+ ]
 }
