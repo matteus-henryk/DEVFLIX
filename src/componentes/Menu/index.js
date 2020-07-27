@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/imagens/Logo.png';
 import {LogoImg, MenuWrapper,Buttonlink} from './style.js'
+import Button from '..Button/';
 
 function Menu() {
     return (
@@ -9,9 +10,9 @@ function Menu() {
                 <LogoImg  src={Logo} alt="DevFlix Logo" />               
             </a>
 
-            <Buttonlink as="a"  href="/">
+            <Button as="a"  href="/">
                 Novo vídeo
-            </Buttonlink>
+            </Button>
         </MenuWrapper>
     );
 }
