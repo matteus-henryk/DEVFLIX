@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components'
 import Menu from './componentes/Menu';
 import BannerMain from './componentes/BannerMain';
 import dadosIniciais from './data/dados_iniciais.json';
@@ -6,9 +7,13 @@ import Carousel from './componentes/Carousel';
 import Footer from './componentes/Footer'
 
 
+const AppWrapper = styled.div`
+  background: var(--grayDark);
+`;
+
 function App() {
   return (
-    <div style={{background: "#141414" }}>
+    <AppWrapper>
       <Menu  />
       <BannerMain
       url={dadosIniciais.categorias[0].videos[0].url}
@@ -43,7 +48,7 @@ function App() {
       category={dadosIniciais.categorias[6]}/>
       <Footer 
       />
-    </div>
+    </AppWrapper>
 
   );
 }
