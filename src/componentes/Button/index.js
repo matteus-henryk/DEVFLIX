@@ -26,7 +26,7 @@ const Button = styled.button`
         border-radius: 0;
         &:hover,
         &:focus{
-            opacity: 1;
+            opacity: 0.8;
         }
     }
 
