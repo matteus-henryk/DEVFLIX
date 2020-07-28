@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/imagens/Logo.png';
-import {LogoImg, MenuWrapper,Buttonlink} from './style.js'
-import Button from '..Button/';
+import {LogoImg, MenuWrapper} from './style.js'
+import Button from '../Button';
 
 function Menu() {
     return (
