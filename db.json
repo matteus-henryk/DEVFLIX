@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front-End",
+            "descricao": "categoria top",
+            "cor": "red"
+        },
+        {
+            "id": 2,
+            "nome": "Bacak-End",
+            "descricao": "categoria top",
+            "cor": "red"
+        }
+    ]
+}
