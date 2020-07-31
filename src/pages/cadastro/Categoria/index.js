@@ -30,7 +30,7 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('Hello World');
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = '  https://app-devflix.herokuapp.com/categorias';
 
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
