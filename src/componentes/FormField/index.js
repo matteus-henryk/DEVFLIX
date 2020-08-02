@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 
 const FormFieldWrapper = styled.div`
   position: relative;
+  padding: 0 5%;
   textarea {
     min-height: 150px;
   }
@@ -14,6 +15,7 @@ const FormFieldWrapper = styled.div`
 
 const Label = styled.label`
 
+
 `;
 
 Label.Text = styled.span`
@@ -21,7 +23,7 @@ Label.Text = styled.span`
   height: 57px;
   position: absolute; 
   top: 0;
-  left: 16px;
+  left: 6%;
   
   display: flex;
   align-items: center;
@@ -49,6 +51,7 @@ const Input = styled.input`
   
   padding: 16px 16px;
   margin-bottom: 45px;
+
   
   resize: none;
   border-radius: 4px;

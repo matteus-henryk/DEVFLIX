@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PageDefault';
 import FormField from '../../../componentes/FormField';
 import Button from '../../../componentes/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -11,22 +12,9 @@ function CadastroCategoria() {
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategory] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
-
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
-
-  function handleChange(infosDoEvento) {
-    setValue(
-      infosDoEvento.target.getAttribute('name'),
-      infosDoEvento.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL_TOP = window.location.hostname.includes('localhost')
@@ -40,24 +28,7 @@ function CadastroCategoria() {
           ...resposta,
         ]);
       });
-    // setTimeout(() => {
-    //   setCategory([
-    //     ...categorias,
-    //     {
-    //       id: 1,
-    //       nome: 'Front-End',
-    //       descricao: 'categoria top',
-    //       cor: 'red',
-    //     },
-    //     {
-    //       id: 2,
-    //       nome: 'Back-End',
-    //       descricao: 'categoria top',
-    //       cor: 'red',
-    //     },
-    //   ]);
-    // }, 4 * 1000);
-  }, []);
+  });
 
   return (
     <PageDefault>
@@ -73,7 +44,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(valoresIniciais);
+        clearForm();
       }}
       >
 
@@ -104,7 +75,7 @@ function CadastroCategoria() {
 
         </div>
 
-        <Button>
+        <Button style={{ marginLeft: 60 }}>
           Cadastrar
         </Button>
       </form>
@@ -116,10 +87,10 @@ function CadastroCategoria() {
       </div>
       )}
 
-      <ul>
+      <ul style={{ marginLeft: 40 }}>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>
